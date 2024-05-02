@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from typing import Union, List
 """This module defines a function to sum a list of integers or
 floats and return the result as a float."""
+from typing import Union, List
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:

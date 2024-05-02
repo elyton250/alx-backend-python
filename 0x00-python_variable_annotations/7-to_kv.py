@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from typing import Union, Tuple
 """This module defines a function to create a
 tuple with a key and its squared value."""
+from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
